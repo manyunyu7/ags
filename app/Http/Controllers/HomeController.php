@@ -92,17 +92,10 @@ class HomeController extends Controller
 
     public function evalFinal(Request $request){
         $case = $request->case;
-
         if ($case=="1"){
             return view("learn.08");
-        }
-
-        if ($case=="2"){
-            return view("learn.09");
-        }
-
-        if ($case=="3"){
-            return view("learn.10");
+        }else{
+            return view("learn.08");
         }
     }
 

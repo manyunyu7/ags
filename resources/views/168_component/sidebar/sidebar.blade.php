@@ -36,13 +36,8 @@
                 </a>
             </li>
 
-            <li><a href="{{url("learn/pengenalan-komponen")}}" target="_blank" class="ai-icon" aria-expanded="false">
-                    <span class="nav-text">Pengenalan Komponen</span>
-                </a>
-            </li>
-
-            <li><a href="{{url("learn/rekayasa-pengalaman")}}" target="_blank" class="ai-icon" aria-expanded="false">
-                    <span class="nav-text">Rekayasa Pengalaman</span>
+            <li><a href="{{url("learn/pengenalan-dan-rekayasa")}}" target="_blank" class="ai-icon" aria-expanded="false">
+                    <span class="nav-text">Pengenalan dan Rekayasa Komponen</span>
                 </a>
             </li>
 

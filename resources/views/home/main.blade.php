@@ -34,7 +34,7 @@
                     dangerMode: true
                 }).then((willConfirm) => {
                     if (willConfirm) {
-                        window.location.href = ("{{url("/learn/pengenalan-komponen")}}");
+                        window.location.href = ("{{url("/learn/pengenalan-dan-rekayasa")}}");
                     }
                 });
 

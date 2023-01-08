@@ -75,7 +75,7 @@
         // First, get the data from the server
         $.ajax({
             type: "GET",
-              url:"https://shipyard.feylabs.my.id"+"/get-scores",
+              url:"{{url("")}}"+"/get-scores",
             data: {
                 user_id: {{ Auth::user()->id }}
             },
@@ -88,10 +88,33 @@
                 var myChart = new Chart(ctx, {
                     type: 'line',
                     data: {
-                        labels: ['Kondisi 1', 'Kondisi 2', 'Kondisi 3'],
+                        labels: [
+                            'Kondisi 1',
+                            'Kondisi 2',
+                            'Kondisi 3',
+                            'Kondisi 4',
+                            'Kondisi 5',
+                            'Kondisi 6',
+                            'Kondisi 7',
+                            'Kondisi 8',
+                            'Kondisi 9',
+                            'Kondisi 10'
+                        ],
                         datasets: [{
                             label: 'Skor',
-                            data: [response.score1, response.score2, response.score3],
+                            data:
+                                [
+                                    response.score1,
+                                    response.score2,
+                                    response.score3,
+                                    response.score4,
+                                    response.score5,
+                                    response.score6,
+                                    response.score7,
+                                    response.score8,
+                                    response.score9,
+                                    response.score10,
+                                ],
                             backgroundColor: [
                                 'rgba(255, 99, 132, 0.2)',
                                 'rgba(54, 162, 235, 0.2)',

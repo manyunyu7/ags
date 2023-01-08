@@ -21,13 +21,11 @@
     <script>
         $(document).ready(function () {
             $("#prev1").click(function () {
-                window.location.href = ("{{url("/learn/rekayasa-pengalaman")}}");
+                window.location.href = ("{{url("/learn/pengenalan-dan-rekayasa")}}");
             });
-
             $("#next1").click(function () {
-                window.location.href = ("{{url("/learn/evaluasi-driving-parameter?case=1")}}");
+                window.location.href = ("{{url("/learn/evaluasi-final?case=1")}}");
             });
-
         });
     </script>
 

@@ -51,9 +51,9 @@ Route::post('/register', 'StaffController@store');
 Route::group(['middleware' => ['auth']], function () {
 
     Route::prefix("learn")->group(function(){
-        Route::view('pengenalan-komponen', 'learn.01');
-        Route::view('evaluasi-pengenalan-komponen', 'learn.02');
-        Route::view('rekayasa-pengalaman', 'learn.03');
+        Route::view('pengenalan-dan-rekayasa', 'learn.01');
+//        Route::view('evaluasi-pengenalan-komponen', 'learn.02');
+//        Route::view('rekayasa-pengalaman', 'learn.03');
         Route::view('estimasi-biaya', 'learn.04');
         Route::get('/evaluasi-driving-parameter', [App\Http\Controllers\HomeController::class, 'eval']);
         Route::get('/evaluasi-final', [App\Http\Controllers\HomeController::class, 'evalFinal']);

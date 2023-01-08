@@ -159,7 +159,7 @@
                         </div>
                         <div class="card-body">
                             <div class="text-center">
-                                <img src="http://feylabs.my.id/fm/agsa/evaluasi_pengenalan_komponen.png" alt=""
+                                <img src="{{url("/")}}/agsa/evaluasi_pengenalan_komponen.png" alt=""
                                      class="img-fluid mt-4 mb-4">
                             </div>
                         </div>

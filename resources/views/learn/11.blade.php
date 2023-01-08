@@ -75,7 +75,7 @@
         // First, get the data from the server
         $.ajax({
             type: "GET",
-            url: "http://127.0.0.1:4646/get-scores",
+              url:"https://shipyard.feylabs.my.id"+"/get-scores",
             data: {
                 user_id: {{ Auth::user()->id }}
             },

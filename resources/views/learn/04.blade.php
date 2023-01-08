@@ -113,7 +113,7 @@
                             <h4>Pola hubungan data yang diketahui dengan komponen pembentuk biaya investasi yang akan
                                 membentuk nilai biaya investasi galangan kapal bangunan baru</h4>
                             <div class="text-center">
-                                <img src="http://feylabs.my.id/fm/agsa/Picture5.png" alt=""
+                                <img src="{{url("/")}}/agsa/Picture5.png" alt=""
                                      class="img-fluid mt-4 mb-4">
 
                             </div>
@@ -123,7 +123,7 @@
                 <div class="col-xl-12 ">
                     <div class="card">
                         <div class="card-body">
-                            <img style="max-height: 70px;" src="http://feylabs.my.id/fm/agsa/Picture6.png" alt=""
+                            <img style="max-height: 70px;" src="{{url("/")}}/agsa/Picture6.png" alt=""
                                  class="img-fluid mt-4 mb-4">
                             <h4>Dari Kondisi Geografis dan Topografi Tanah, dapat diketahui Biaya :</h4>
                             <table class="table-borderless" border="0">
@@ -150,7 +150,7 @@
                 <div class="col-xl-12 ">
                     <div class="card">
                         <div class="card-body">
-                            <img style="max-height: 70px;" src="http://feylabs.my.id/fm/agsa/Picture8.png" alt=""
+                            <img style="max-height: 70px;" src="{{url("/")}}/agsa/Picture8.png" alt=""
                                  class="img-fluid mt-4 mb-4">
                             <h5>Syarat dilakukan pengerukan adalah Sarat kapal kosong > kedalaman perairan <br>
                                 Biaya Pengerukan dapat diketahui dengan mengkalikan Volume dengan Biaya pengerukan per
@@ -163,7 +163,7 @@
                 <div class="col-xl-12 ">
                     <div class="card">
                         <div class="card-body">
-                            <img style="max-height: 70px;" src="http://feylabs.my.id/fm/agsa/Picture7.png" alt=""
+                            <img style="max-height: 70px;" src="{{url("/")}}/agsa/Picture7.png" alt=""
                                  class="img-fluid mt-4 mb-4">
                             <h5>
                                 Dari DWT Kapal dapat diketahui dimesi kapal, kemudian dari dimensi kapal akan diketahui
@@ -179,19 +179,19 @@
 
                             <div class="row">
                                 <div class="col-md-6 col-12">
-                                    <img src="http://feylabs.my.id/fm/agsa/Picture9.png" alt=""
+                                    <img src="{{url("/")}}/agsa/Picture9.png" alt=""
                                          class="img-fluid mt-4 mb-4">
                                 </div>
                                 <div class="col-md-6 col-12">
-                                    <img src="http://feylabs.my.id/fm/agsa/Picture10.png" alt=""
+                                    <img src="{{url("/")}}/agsa/Picture10.png" alt=""
                                          class="img-fluid mt-4 mb-4">
                                 </div>
                                 <div class="col-md-6 col-12">
-                                    <img src="http://feylabs.my.id/fm/agsa/Picture11.png" alt=""
+                                    <img src="{{url("/")}}/agsa/Picture11.png" alt=""
                                          class="img-fluid mt-4 mb-4">
                                 </div>
                                 <div class="col-md-6 col-12">
-                                    <img src="http://feylabs.my.id/fm/agsa/Picture12.png" alt=""
+                                    <img src="{{url("/")}}/agsa/Picture12.png" alt=""
                                          class="img-fluid mt-4 mb-4">
                                 </div>
                             </div>
@@ -202,14 +202,14 @@
                 <div class="col-xl-12 ">
                     <div class="card">
                         <div class="card-body">
-                            <img style="max-height: 70px;" src="http://feylabs.my.id/fm/agsa/Picture13.png" alt=""
+                            <img style="max-height: 70px;" src="{{url("/")}}/agsa/Picture13.png" alt=""
                                  class="img-fluid mt-4 mb-4">
                             <h5>
                                 Dari DWT Kapal didapatkan Berat Baja yang dibutuhkan (Wst) Kapal, lalu akan didapatkan
                                 Biaya :
                             </h5>
                             <div class="text-center">
-                                <img style="max-height: 350px" src="http://feylabs.my.id/fm/agsa/Picture14.png" alt=""
+                                <img style="max-height: 350px" src="{{url("/")}}/agsa/Picture14.png" alt=""
                                      class="img-fluid mt-4 mb-4">
                             </div>
 
@@ -221,7 +221,7 @@
                             </h5>
 
                             <div class="text-center">
-                                <img style="max-height: 350px" src="http://feylabs.my.id/fm/agsa/Picture15.png" alt=""
+                                <img style="max-height: 350px" src="{{url("/")}}/agsa/Picture15.png" alt=""
                                      class="img-fluid mt-4 mb-4">
                             </div>
 
@@ -277,7 +277,7 @@
 
                             <h5>Dari Waktu Pengerjaan di atas didapatkan kebutuhan peralatan sebagai berikut :</h5>
                             <div class="text-center">
-                                <img style="max-height: 350px" src="http://feylabs.my.id/fm/agsa/Picture16.png" alt=""
+                                <img style="max-height: 350px" src="{{url("/")}}/agsa/Picture16.png" alt=""
                                      class="img-fluid mt-4 mb-4">
                             </div>
 

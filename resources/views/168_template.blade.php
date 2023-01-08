@@ -5,17 +5,17 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="keywords" content="admin, dashboard">
-    <meta name="author" content="Henry Augusta">
+    <meta name="author" content="Athallah Agsa">
     <meta name="robots" content="index, follow">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Griya Sodaqo &#8211; Gerakan Sodaqo Indonesia">
-    <meta property="og:title" content="Griya Sodaqo : Gerakan Sodaqo Indonesi">
-    <meta property="og:description" content="Sodaqo.id telah memiliki banyak partner kolaborasi yang bersedia membantu orang orang yang membutuhkan bantuan. Selaijn itu, untuk saat ini SODAQO.id fokus menyantuni Anak Yatim Duafa yang tersebar di 17 Panti Asuhan yang berlokasi di Kota Bandung. Total penerima manfaat SODAQO adalah 451 Anak yatim">
-    <meta property="og:image" content="http://feylabs.my.id/fm/apk/cover_sodaqo.png">
+    <meta name="description" content="Shipyard Investment &#8211;">
+    <meta property="og:title" content="Shipyard Investment: ">
+    <meta property="og:description" content="web-based application that can provide intuition training to users on the estimated investment of new building shipyards.">
+    <meta property="og:image" content="https://awsimages.detik.net.id/visual/2021/05/30/foto-hyundari-industries-dok-esandar_169.png?w=360&q=90">
     <meta name="format-detection" content="telephone=no">
 
     <!-- PAGE TITLE HERE -->
-    <title>Sodaqo.id</title>
+    <title>Shipyard Investment</title>
 
     <!-- FAVICONS ICON -->
     <link rel="shortcut icon" type="image/png" href="{{ asset('/168_res') }}/images/favicon.png">

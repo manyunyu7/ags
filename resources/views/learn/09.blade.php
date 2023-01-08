@@ -109,7 +109,7 @@
                 if (isScoreSaved) {
                     $.ajax({
                         type: "GET",
-                        url: "http://127.0.0.1:4646/save-score",
+                           url:"https://shipyard.feylabs.my.id"+"/save-score",
                         data: {
                             user_id: {{ Auth::user()->id }},
                             score2: score

@@ -6,7 +6,7 @@
                 $photoUrl = "user/".Auth::id()."/edit";
                 @endphp
                 <a class="nav-link" href="javascript:void(0)" role="button" data-bs-toggle="dropdown">
-                    <img src="http://feylabs.my.id/fm/pics/mi/sucor.png" width="20" alt="">
+                    <img src="https://app.bibit.id/assets/logos/investment-manager/square/NI002.svg" width="20" alt="">
                     <div class="header-info ms-3">
                         <span class="font-w600 ">Hi,<b>{{Auth::user()->name}}</b></span>
                         <small class="text-end font-w400"></small>

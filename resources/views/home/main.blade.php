@@ -166,7 +166,7 @@
                             <h5 class="card-title text-dark">OPERATIONAL METHODS OF APPLICATION :</h5>
                         </div>
                         <div class="card-body">
-                            <img src="http://feylabs.my.id/fm/agsa/about_1.png" alt="" class="img-fluid mt-4 mb-4">
+                            <img src="{{url("/")}}/agsa/about_1.png" alt="" class="img-fluid mt-4 mb-4">
                             <h4>How to Train The Intuition in This Application:</h4>
                             <ul class="text-black" style="font-size: larger">
                                 <li>

@@ -248,7 +248,7 @@
                                 <br>ISILAH KEBUTUHAN KOMPONEN SESUAI DENGAN UKURAN YANG DISEDIAKAN
                             </h4>
                             <div class="text-center">
-                                <img src="http://feylabs.my.id/fm/agsa/Picture5.png" alt=""
+                                <img src="{{url("/")}}/agsa/Picture5.png" alt=""
                                      class="img-fluid mt-4 mb-4">
 
                             </div>

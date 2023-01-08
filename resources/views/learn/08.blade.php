@@ -68,7 +68,12 @@
 
 
             $("#prev1").click(function () {
-                window.location.href = ("{{url("/learn/estimasi-biaya")}}");
+                @if($case==1)
+                    window.location.href = ("{{url("/learn/estimasi-biaya")}}");
+                @else
+                    window.location.href = ("{{url("/learn/evaluasi-final?case=".($case-1))}}");
+                @endif
+
             });
             $("#next1").click(function () {
                 var dataVariables = {

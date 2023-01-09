@@ -75,6 +75,11 @@
                 @endif
 
             });
+
+            $("#result").click(function () {
+                window.location.href = ("{{url("/learn/grafik-pengembangan")}}");
+            });
+
             $("#next1").click(function () {
                 var dataVariables = {
                     1: 'score1',
@@ -1932,6 +1937,14 @@
                 <div class="col-xl-12">
                     <div class="card">
                         <div class="card-footer border-0 pt-0">
+
+                            @if($case>=3)
+                                <div class="text-left mt-4">
+                                    <div id="result" class="btn btn-outline-success btn-sm col-3">Lihat Hasil</div>
+                                </div>
+                            @else
+                            @endif
+
                             <div class="text-left mt-4">
                                 <div id="reset" class="btn btn-outline-danger btn-sm col-3">Reset</div>
                                 <div id="simul" class="btn btn-outline-secondary btn-sm col-3">Simulasi</div>

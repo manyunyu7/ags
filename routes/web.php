@@ -25,7 +25,7 @@ Route::get('/landing', function () {
 Route::view('/ryy', '168_template');
 
 
-Route::view('/', 'start');
+Route::view('/', 'init');
 
 Route::view('/template/home', 'template');
 Route::view('/download/', 'download');

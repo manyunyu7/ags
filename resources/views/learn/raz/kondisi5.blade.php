@@ -1,7 +1,7 @@
 <div class="col-xl-12 ">
     <div class="card">
         <div class="card-header border-0 pb-0">
-            <span class="current_status badge badge-xl light badge-primary">Kondisi 1</span><br>
+            <span class="current_status badge badge-xl light badge-primary">Kondisi 5</span><br>
         </div>
         <div class="card-body">
             <table class="table table-bordered text-black">

@@ -6,7 +6,7 @@
         <div class="card-body">
             <table class="table table-bordered text-black">
                 <tr>
-                    <td>kondisi 1</td>
+                    <td>kondisi 10</td>
                     <td></td>
                     <td></td>
                 </tr>
@@ -22,37 +22,37 @@
                 </tr>
                 <tr>
                     <td>Ukuran Tanah :</td>
-                    <td>235 x 100</td>
+                    <td>295 x 100</td>
                     <td>m2</td>
                 </tr>
                 <tr>
                     <td>DWT Kapal :</td>
-                    <td>5800</td>
+                    <td>6200</td>
                     <td>DWT</td>
                 </tr>
                 <tr>
                     <td>L :</td>
-                    <td>95.54</td>
+                    <td>97.5</td>
                     <td>m</td>
                 </tr>
                 <tr>
                     <td>B :</td>
-                    <td>16.62</td>
+                    <td>16.94</td>
                     <td>m</td>
                 </tr>
                 <tr>
                     <td>H :</td>
-                    <td>8.35</td>
+                    <td>8.62</td>
                     <td>m</td>
                 </tr>
                 <tr>
                     <td>T actual :</td>
-                    <td>6.03</td>
+                    <td>6.17</td>
                     <td>m</td>
                 </tr>
                 <tr>
                     <td>Wst :</td>
-                    <td>1580.94</td>
+                    <td>1696.67</td>
                     <td>ton</td>
                 </tr>
                 <tr>

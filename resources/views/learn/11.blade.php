@@ -85,36 +85,69 @@
 
                 // Now, create the chart using Chart.js
                 var ctx = document.getElementById('myChart').getContext('2d');
+                var n = 0;
+                if (response.score1 !== null) { n++; }
+                if (response.score2 !== null) { n++; }
+                if (response.score3 !== null) { n++; }
+                if (response.score4 !== null) { n++; }
+                if (response.score5 !== null) { n++; }
+                if (response.score6 !== null) { n++; }
+                if (response.score7 !== null) { n++; }
+                if (response.score8 !== null) { n++; }
+                if (response.score9 !== null) { n++; }
+                if (response.score10 !== null) { n++; }
+
+                var labels = [];
+                var data = [];
+
+                if (response.score1 !== null) {
+                    labels.push('Kondisi 1');
+                    data.push(response.score1);
+                }
+                if (response.score2 !== null) {
+                    labels.push('Kondisi 2');
+                    data.push(response.score2);
+                }
+                if (response.score3 !== null) {
+                    labels.push('Kondisi 3');
+                    data.push(response.score3);
+                }
+                if (response.score4 !== null) {
+                    labels.push('Kondisi 4');
+                    data.push(response.score4);
+                }
+                if (response.score5 !== null) {
+                    labels.push('Kondisi 5');
+                    data.push(response.score5);
+                }
+                if (response.score6 !== null) {
+                    labels.push('Kondisi 6');
+                    data.push(response.score6);
+                }
+                if (response.score7 !== null) {
+                    labels.push('Kondisi 7');
+                    data.push(response.score7);
+                }
+                if (response.score8 !== null) {
+                    labels.push('Kondisi 8');
+                    data.push(response.score8);
+                }
+                if (response.score9 !== null) {
+                    labels.push('Kondisi 9');
+                    data.push(response.score9);
+                }
+                if (response.score10 !== null) {
+                    labels.push('Kondisi 10');
+                    data.push(response.score10);
+                }
+
                 var myChart = new Chart(ctx, {
                     type: 'line',
                     data: {
-                        labels: [
-                            'Kondisi 1',
-                            'Kondisi 2',
-                            'Kondisi 3',
-                            'Kondisi 4',
-                            'Kondisi 5',
-                            'Kondisi 6',
-                            'Kondisi 7',
-                            'Kondisi 8',
-                            'Kondisi 9',
-                            'Kondisi 10'
-                        ],
+                        labels: labels,
                         datasets: [{
                             label: 'Skor',
-                            data:
-                                [
-                                    response.score1,
-                                    response.score2,
-                                    response.score3,
-                                    response.score4,
-                                    response.score5,
-                                    response.score6,
-                                    response.score7,
-                                    response.score8,
-                                    response.score9,
-                                    response.score10,
-                                ],
+                            data: data,
                             backgroundColor: [
                                 'rgba(255, 99, 132, 0.2)',
                                 'rgba(54, 162, 235, 0.2)',
